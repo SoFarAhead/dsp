@@ -1,7 +1,14 @@
 # dsp 
-## Summary
-This is the doc I wrote to learn dsp28335
-## hi
-```
-hello
-```
+## 概述  
+
+这是我学习TI28335的文档  
+~~TI不懂中国国情，不能妄下定论~~  
+
+---  
+##  1. 配置寄存器   
+- 利用c语言struct进行配置   
+
+
+
+
+
