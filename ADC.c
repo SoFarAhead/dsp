@@ -42,7 +42,7 @@ void main()
     //设置采样保持其宽度为（ADC_SHCLK+1）*ADC时钟周期，可理解为设置采样频率
     AdcRegs.ADCTRL1.bit.ACQ_PS = ADC_SHCLK;
     //设定ADC时钟 等于HSPCLK/1 = 25MHz
-
+    AdcRegs.ADCTRL3.bit.ADCCLKPS = ADC_CKPS;
     AdcRegs.ADCTRL1.bit.SEQ_CASC = 1;   //设置为级联方式
     AdcRegs.ADCTRL3.bit.SMODE_SEL = 0;  //设置为顺序采样
     //设置采样顺序
